@@ -7,7 +7,7 @@ app.use(express.static(‘public’));
 
 app.listen(3030, () => console.log("Levantando un servidor con Express"));
 
-/ -> Debe direccionar al recurso index.html.
+// -> Debe direccionar al recurso index.html.
 /babbage -> Debe direccionar al recurso babbage.html
 /berners-lee -> Debe direccionar al recurso berners-lee.html.
 /clarke -> Debe direccionar al recurso clarke.html.
